@@ -30,6 +30,31 @@
       <div class="right-image">
         <img src="./images/Screenshot 2024-03-28 14.43.31.png" alt="area_of_trapezoid image" />
       </div>
-      <br />
-      <div class="page-content">Enter the two bases and height in mm.<br /> A=(a+b)
-        x h / 2</div>
+
+      <main class="mdl-layout__content">
+        <div class="right-image">
+          <img src="./images/area_of_trinagle.png" alt="area_of_trinagle image" width="250" />
+        </div>
+        <div class="page-content-php">
+          <div id="user-info">
+            <?php
+            $baseOfTriangle = $_POST["base-of-triangle"];
+            $baseOfTriangle = $_POST["base-of-triangle"];
+            $heightOfTriangle = $_POST["height-of-triangle"];
+
+            // process
+            $area = 0.5 * ($baseOfTriangle + $heightOfTriangle);
+
+            // output
+            echo "If a triangle has base = " . $baseOfTriangle . " cm and the height = " . $heightOfTriangle . " cm:";
+            echo "<br />";
+            echo "<br />";
+            echo "The area of the triangle is " . $area . " cm².";
+            ?>
+          </div>
+        </div>
+      </main>
+  </div>
+</body>
+
+</html>
