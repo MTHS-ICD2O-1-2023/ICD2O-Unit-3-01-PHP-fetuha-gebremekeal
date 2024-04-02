@@ -33,33 +33,3 @@
       <br />
       <div class="page-content">Enter the two bases and height in mm.<br /> A=(a+b)
         x h / 2</div>
-      <form action="answer.php" method="POST">
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="base-a">
-          <label class="mdl-textfield__label" for="base-a">a base (mm)</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        <br />
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="base-b">
-          <label class="mdl-textfield__label" for="base-b">b base (mm)</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        <br />
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-trapezoid">
-          <label class="mdl-textfield__label" for="height-of-trapezoid">Height of trapezoid (mm)</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        <br />
-        <!-- Accent-colored raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-          Calculate
-        </button>
-      </form>
-  </div>
-  </main>
-  </div>
-</body>
-
-</html>
