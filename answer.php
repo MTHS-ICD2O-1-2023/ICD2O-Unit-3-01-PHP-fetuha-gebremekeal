@@ -30,11 +30,6 @@
       <div class="right-image">
         <img src="./images/Screenshot 2024-03-28 14.43.31.png" alt="area of trapezoid image" />
       </div>
-
-      <main class="mdl-layout__content">
-        <div class="right-image">
-          <img src="./images/area_of_trinagle.png" alt="area_of_trinagle image" width="250" />
-        </div>
         <div class="page-content-php">
           <div id="user-info">
             <?php
