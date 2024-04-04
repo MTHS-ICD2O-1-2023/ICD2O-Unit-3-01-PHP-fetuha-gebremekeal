@@ -38,18 +38,18 @@
         <div class="page-content-php">
           <div id="user-info">
             <?php
-            $baseA = $_POST["base-of-triangle"];
-            $baseB = $_POST["base-of-triangle"];
-            $heightOfTrapezoid = $_POST["height-of-triangle"];
+            $baseA = $_POST["base-a"];
+            $baseB = $_POST["base-b"];
+            $heightOfTrapezoid = $_POST["height-of-trapezoid"];
 
             // process
-            $area = heightOfTrapezoid  * ($baseA + $baseB);
+            $area = 2 / ($baseA + $baseB) * $heightOfTrapezoid ;
 
             // output
-            echo "If a triangle has base = " .  $baseA. " mm and the height = " . $heightOfTrapezoide . " mm:";
+            echo "If a trapezoid has base = " .  $baseA. " mm and the height = " . $heightOfTrapezoide . " mm:";
             echo "<br />";
             echo "<br />";
-            echo "The area of the triangle is " . $area . " mm².";
+            echo "The area of the trapezoid is " . $area . " mm².";
             ?>
           </div>
         </div>
