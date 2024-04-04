@@ -43,7 +43,7 @@
             $heightOfTrapezoid = $_POST["height-of-trapezoid"];
 
             // process
-            $area = 2 / ($baseA + $baseB) * $heightOfTrapezoid ;
+            $area = ($baseA + $baseB) / 2 * $heightOfTrapezoid ;
 
             // output
             echo "If a trapezoid has base = " .  $baseA. " mm and the height = " . $heightOfTrapezoide . " mm:";
