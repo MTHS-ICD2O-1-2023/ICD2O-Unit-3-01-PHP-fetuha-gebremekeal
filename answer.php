@@ -46,7 +46,7 @@
             $area = ($baseA + $baseB) / 2 * $heightOfTrapezoid ;
 
             // output
-            echo "If a trapezoid has base = " .  $baseA. " mm and the height = " . $heightOfTrapezoide . " mm:";
+            echo "If a trapezoid has base = " .  $baseA. " mm and the height = " . $heightOfTrapezoid . " mm:";
             echo "<br />";
             echo "<br />";
             echo "The area of the trapezoid is " . $area . " mm².";
