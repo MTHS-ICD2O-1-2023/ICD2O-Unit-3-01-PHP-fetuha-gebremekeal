@@ -28,7 +28,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/Screenshot 2024-03-28 14.43.31.png" alt="area_of_trapezoid image" />
+        <img src="./images/Screenshot 2024-03-28 14.43.31.png" alt="area of trapezoid image" />
       </div>
 
       <main class="mdl-layout__content">
